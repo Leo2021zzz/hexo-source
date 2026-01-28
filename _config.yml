@@ -103,7 +103,7 @@ theme: flex-block
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Leo2021zzz/Leo2021zzz.github.io
+  repo: git@github.com:Leo2021zzz/Leo2021zzz.github.io.git
   branch: master
 
 ## Live2D看板娘
