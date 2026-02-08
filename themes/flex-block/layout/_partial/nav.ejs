@@ -22,6 +22,15 @@
         <% for (var i in theme.menu) { %>
           <li class="navbar-list-item"><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
         <% } %>
+        <li class="navbar-list-item">
+          <div class="wallet-connect-wrap">
+            <button class="wallet-connect-btn" type="button" data-wallet-connect>连接钱包</button>
+            <div class="wallet-panel" data-wallet-panel>
+              <button class="wallet-panel-item" type="button" data-wallet-copy>复制地址</button>
+              <button class="wallet-panel-item" type="button" data-wallet-disconnect>断开</button>
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>

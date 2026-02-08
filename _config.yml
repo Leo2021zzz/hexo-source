@@ -107,19 +107,3 @@ deploy:
   branch: master
 
 ## Live2D看板娘
-live2d:
-  enable: true
-  pluginModelPath: assets/
-  model:
-    #模板目录，在node_modules里
-    use: live2d-widget-model-shizuku  
-  display:
-    position: left
-    width: 150 
-    height: 300
-  mobile:
-    # 在手机端显示
-    show: true   
-  rect:
-    opacity:0.7
-

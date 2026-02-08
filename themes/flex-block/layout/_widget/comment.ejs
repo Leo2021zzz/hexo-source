@@ -12,6 +12,7 @@
   <%# valine 评论 %>
   <% if (useComments === 'valine' && valine.appId && valine.appKey) { %>
     <div class="valine-container comments-container content-padding--primary soft-size--large soft-style--box">
+      <p class="wallet-comment-hint" data-wallet-comment-hint>未连接钱包时，请使用默认昵称留言。</p>
       <div id="valine_thread" class="valine-thread"></div>
     </div>
     <script type="text/javascript" src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
